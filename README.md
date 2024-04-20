@@ -1,4 +1,14 @@
-# Nvim setup
+# Nvim
+
+[neovim](https://neovim.io/) config.
+
+## Install
+
+```
+brew install neovim
+cd ~/.config
+git clone https://github.com/daniel-bryant/nvim.git
+```
 
 ## Catppuccin
 
