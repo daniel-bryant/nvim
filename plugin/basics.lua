@@ -4,6 +4,11 @@ vim.opt.number = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
 
+-- Fix hot reload with React Native/Watchman
+vim.opt.backup = false
+vim.opt.swapfile = false
+vim.opt.writebackup = false
+
 -- Move between windows quicker
 vim.keymap.set('n', '<C-h>', '<C-w>h')
 vim.keymap.set('n', '<C-j>', '<C-w>j')
